@@ -83,6 +83,17 @@ background: linear-gradient(180deg, rgba(26,101,0,1) 0%, rgba(18,71,0,1) 10%, rg
     height: 30px;
     width: 200px;
 }
+.cod{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
 .CabezeraCentral{
     display: flex;
     justify-content: space-around;
