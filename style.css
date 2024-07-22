@@ -94,4 +94,13 @@ background: linear-gradient(180deg, rgba(26,101,0,1) 0%, rgba(18,71,0,1) 10%, rg
     align-items: center;
     height: 8vh;
     width: 100%;
+    padding: 1vw;
+}
+.CabezeraCentral button{
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.CabezeraCentral button:hover{
+    transform: scale(1.1);
 }
