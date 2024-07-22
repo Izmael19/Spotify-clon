@@ -59,12 +59,18 @@ background: linear-gradient(180deg, rgba(26,101,0,1) 0%, rgba(18,71,0,1) 10%, rg
 .op{
     background-color: rgb(29, 29, 29);
     border-radius: 15px;
+    border: 0;
+    transition: 0.3s;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     height: 30px;
     width: 90px;
+    cursor: pointer;
+}
+.op:hover{
+    transform: scale(1.1);
 }
 .co{
     background-color: rgb(29, 29, 29);
