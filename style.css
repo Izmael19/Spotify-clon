@@ -34,12 +34,15 @@ body{
 .urMusic{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     width: 21.5vw;
     height: 87.5vh;
     background-color: rgb(20, 20, 20);
     border-radius: 10px;
+}
+.urMusic>h2{
+    margin: 20px;
 }
 .centerContainer{
     display: flex;
@@ -52,12 +55,14 @@ background: linear-gradient(180deg, rgba(26,101,0,1) 0%, rgba(18,71,0,1) 10%, rg
 }
 .LAA{
     display: flex;
+    width: 21.5vw;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-evenly;
     align-items: start;
 }
 .op{
     background-color: rgb(29, 29, 29);
+    color: white;
     border-radius: 15px;
     border: 0;
     transition: 0.3s;
